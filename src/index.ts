@@ -15,3 +15,5 @@ export * from './snakeCase'
 export * from './kebabCase'
 export * from './defaults'
 export * from './random'
+
+export const hello = () => '123'

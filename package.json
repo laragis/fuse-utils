@@ -1,7 +1,7 @@
 {
-  "name": "midash",
+  "name": "@ttungbmt/fuse-utils",
   "description": "An alternative to lodash with the same API.",
-  "version": "0.2.10",
+  "version": "0.0.1",
   "sideEffects": false,
   "license": "MIT",
   "exports": {
@@ -24,7 +24,6 @@
     "build": "microbundle",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "microbundle",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
