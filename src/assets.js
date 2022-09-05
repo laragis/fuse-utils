@@ -1,11 +1,12 @@
-import v from 'voca'
+import first from 'voca/first.js'
+import last from 'voca/last.js'
 
 const assets = (path) => {
   let public_url = process.env.PUBLIC_URL
 
-  if (v.first(path) === '/') return path
+  if (first(path) === '/') return path
 
-  if (v.last(public_url) !== '/') public_url = `${public_url}/`
+  if (last(public_url) !== '/') public_url = `${public_url}/`
 
   return [public_url, path].join('')
 }

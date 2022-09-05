@@ -34,7 +34,8 @@
     "postversion": "git push --follow-tags"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "voca": "^1.4.0"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^8.0.1",
